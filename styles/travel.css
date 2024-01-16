@@ -241,6 +241,20 @@ nav{
     width: 64px;
     height:64px;
  }
+/* Video sections style--------------------------------------------- */
+.video-section{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.video-section-content{
+    display: flex;
+
+}
+.left-video{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
 
 /* Newsletter section styles start from here................................  */
 .newsletter{
