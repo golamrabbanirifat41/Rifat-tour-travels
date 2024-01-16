@@ -482,4 +482,14 @@ nav{
     .video-section-content{
         flex-direction: column;
     }
+    .deals-container{
+        left: 0;
+        top: 90px;
+        width: 303px;
+        height: 297px;
+        
+    }
+    .deals-container h3{
+        margin: 0;
+    }
 }
