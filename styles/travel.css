@@ -1,0 +1,267 @@
+
+/* Font family import and used  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+    
+}
+/* ------------------------------------------------ */
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.primary-text-bold1{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.primary-text-bold{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.primary-text{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.primary-text-white{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 676px;
+}
+.primary-btn{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+   
+    }
+
+}
+#travel{
+    color: #FF5400;
+}
+
+/* -------------------Navigation bar ------------------------- */
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+.left-nav img{
+    margin-right: 10px;
+    width: 3.6rem;
+    height: 3.5rem;
+    
+}
+.right-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2.8rem;
+    
+}
+.right-nav a{
+    text-decoration: none;
+    width: 100%;
+}
+
+/* Start of Banner part  */
+.banner{
+    width: 100%;
+    margin-bottom: 100px;
+
+}    
+.banner-content{
+    height: 500px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/Group13\(1\)\(1\).png');
+    width: 100%;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+.banner-content .banner-form{
+    display: flex;
+    padding: 16px;
+    align-items: flex;
+    gap: 1.4rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 auto;
+}
+.primary-input{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+
+/* Main body styles -------------------------------------------------------------------------------------  */
+.tour{
+    display: flex;
+    margin-bottom: 100px;
+}
+.tour-content{
+    display: flex;
+    gap: 53px;
+    width: 100%;
+}
+
+/* Destination section ------------------------------------------------------------------- */
+ 
+ .container{
+    position: relative;
+    text-align: center;
+    color: white;
+ }
+ .img-text{
+    position: absolute;
+    top: 50%;
+    left:40%;
+    translate: (-50% , -50%);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    
+ }
+.destination-top{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    
+}
+.destination-top p{
+    max-width: 643px;
+    text-align: center;
+}
+ .row-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+ }
+ .row-2{
+    display: grid;
+    grid-template-columns: 374px auto 274px ;
+    gap: 24px;
+    margin-bottom: 24px;
+ }
+
+ .row-3{
+    display: grid;
+    grid-template-columns: 473px auto;
+    gap: 24px;
+    margin-bottom: 24px;
+ }
+ .row-1 img{
+    width: 100%;
+    height: 100%;
+ }
+ .row-2 img{
+    width: 100%;
+    height: 100%;
+ } .row-3 img{
+    width: 100%;
+    height: 100%;
+ }
+.choose-row1{
+    display: flex;
+    gap:24px;
+}
+.choose-container1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+.choose-container2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+.choose-container3{
+    max-width: 573px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+    
+}
+.choose-row2{
+    display: flex;
+    margin:24px auto ;
+    justify-content: center;
+}
+ .choose img{
+    width: 64px;
+    height:64px;
+ }
+
+
+/* Mobile styles/responsive styles */
+@media screen and (max-width:600px) {
+    body{
+        max-width: 335px;
+    }
+    .banner,.tour{
+        margin-bottom: 0;
+    }
+    .banner-form{
+        flex-direction: column;
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        margin: 0;
+    }
+    .banner-title{
+        margin-bottom: 0;
+        font-size: 22px;
+    }
+    .right-nav ul{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        
+    }
+    .tour-content,.choose-row1{
+        flex-direction: column;
+    }
+    .tour-content img{
+        width: 100%;
+    }
+    .row-1,.row-2,.row-3{
+        grid-template-columns: 1fr;
+    }
+}
