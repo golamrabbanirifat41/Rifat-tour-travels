@@ -66,6 +66,9 @@ nav{
     align-items: center;
     width: 100%;
 }
+.menu-bar{
+    display: none;
+}
 .left-nav{
     display: flex;
     align-items: center;
@@ -357,6 +360,30 @@ nav{
     body{
         max-width: 335px;
     }
+    .menu-bar{
+        display:flex ;
+        align-items: center;
+    }
+    .menu-bar .dropdown{
+        display: none;
+        position:absolute;
+        left: 250px;
+        
+
+    }
+    .menu-bar li:hover>.dropdown{
+        display: block;
+        
+        
+    }
+
+    .menu-bar img{
+        width: 24px;
+        height: 24px;
+    }
+    .no-menubar{
+        display: none;
+    }
     .banner,.tour{
         margin-bottom: 0;
     }
@@ -410,5 +437,8 @@ nav{
     .save{
         font-size: 21px;
     
+    }
+    .video-section-content{
+        flex-direction: column;
     }
 }
