@@ -78,7 +78,7 @@ nav{
     width: 3.6rem;
     height: 3.5rem;
     
-}
+} 
 .right-nav ul{
     display: flex;
     list-style: none;
@@ -244,6 +244,47 @@ nav{
     width: 64px;
     height:64px;
  }
+
+/* Deals and Discounts section style -----------------------  */
+.deals-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.deals-row1{
+    background-image: url('../Images/Group39.png');
+    height: 500px;
+}
+.deals-container{
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    left: 45%;
+    top: 10%;
+
+
+}
+.deals-up{
+    display: flex;
+    align-items: center;
+}
+.deals-up img{
+    width: 24px;
+    height: 24px;
+    
+}
+.price{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
 /* Video sections style--------------------------------------------- */
 .video-section{
     margin-bottom: 100px;
