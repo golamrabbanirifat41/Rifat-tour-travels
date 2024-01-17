@@ -65,6 +65,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+
 }
 .menu-bar{
     display: none;
@@ -251,10 +252,26 @@ nav{
     flex-direction: column;
     align-items: center;
 }
-.deals-row1{
+.deals-bottom>button{
+    display: flex;
+    margin: 0 auto;
+}
+.deals-row1,.deals-row3{
     background-image: url('../Images/Group39.png');
     height: 500px;
+    margin-bottom: 24px;
 }
+.deals-row2{
+    background-image: url('../Images/Group39.png');
+    height: 500px;
+    margin-bottom: 24px;
+    /* transform: rotate(180deg); */
+    transform: rotateY(180deg);
+}
+.deals-row2>.deals-container{
+    transform: rotateY(180deg);
+}
+
 .deals-container{
     width: 579px;
     height: 389px;
@@ -400,6 +417,9 @@ nav{
 @media screen and (max-width:600px) {
     body{
         max-width: 335px;
+    }
+    nav{
+        margin-bottom: 80px;
     }
     .menu-bar{
         display:flex ;
